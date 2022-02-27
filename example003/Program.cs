@@ -1,5 +1,6 @@
-﻿int NumberA = new Random ().Next (1, 10);
-Console.WriteLine (NumberA);
+﻿Console.WriteLine("сложение двух рондомных чисел");
+
+int NumberA = new Random ().Next (1, 10);
 int NumberB = new Random ().Next (1, 10);
-Console.WriteLine(NumberB);
-Console.WriteLine(NumberA + NumberB); 
+int sum = NumberA + NumberB;
+Console.WriteLine(NumberA + " + " + NumberB + " = " + sum); 
