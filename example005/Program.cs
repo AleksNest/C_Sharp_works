@@ -1,4 +1,5 @@
-﻿int x1 = 2;
+﻿Console.WriteLine("Задача на вычисления max");
+int x1 = 2;
 int x2 = 5;
 int x3 = 10;
 
