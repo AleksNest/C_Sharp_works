@@ -1,5 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("введите имя пользователя");
+﻿Console.WriteLine("Задача на проверку имени Маша - регистр любой");
+Console.WriteLine("введите имя пользователя!");
 string username = Console.ReadLine();
 
 if (username.ToLower() == "маша")
@@ -8,7 +8,7 @@ if (username.ToLower() == "маша")
 }
 else
 {
-    Console.Write ("привет");
+    Console.Write ("привет  ");
     Console.WriteLine (username);
 
 }
